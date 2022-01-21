@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    border:0;
+}
+
+.grid-box{
+    display:grid;
+    grid-template-columns: 55% 45%;
+    height:100%;
+}
+
+
+.grid-2{
+    background-color:white;
+    margin:6em 8em;
+
+}
+
+
+@media (max-width: 800px) {
+  
+        .grid-box{
+          grid-template-columns: 0% auto;
+        }
+  }
+
+
